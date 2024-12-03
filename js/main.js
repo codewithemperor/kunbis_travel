@@ -6,6 +6,8 @@
 		duration: 600
 	});
 
+	
+
 	var slider = function(){
 
 		var heroSlider = document.querySelectorAll('.hero-slider');
@@ -142,6 +144,29 @@ $(document).ready(function() {
 		allowClear: false
 	});
 });
+
+
+
+function populateMonths() {
+	const select = document.getElementById('select-destination');
+	const currentDate = new Date();
+	const currentYear = currentDate.getFullYear();
+	const currentMonth = currentDate.getMonth(); // 0 = January, 11 = December
+	const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+	for (let year = currentYear; year <= currentYear + 5; year++) {
+		for (let month = 0; month < 12; month++) {
+			if (year === currentYear && month < currentMonth) continue;
+
+			const option = document.createElement('option');
+			option.value = `${months[month]} ${year}`;
+			option.textContent = `${months[month]} ${year}`;
+			select.appendChild(option);
+
+			if (year === currentYear + 5 && month === currentMonth - 1) break;
+		}
+	}
+}
 
 const allCountries = [
 	"Afghanistan",
@@ -340,26 +365,20 @@ const allCountries = [
 	"Zambia",
 	"Zimbabwe"
 ];
-
-function populateMonths() {
-	const select = document.getElementById('select-destination');
-	const currentDate = new Date();
-	const currentYear = currentDate.getFullYear();
-	const currentMonth = currentDate.getMonth(); // 0 = January, 11 = December
-	const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-	for (let year = currentYear; year <= currentYear + 5; year++) {
-		for (let month = 0; month < 12; month++) {
-			if (year === currentYear && month < currentMonth) continue;
-
+function populateCountries() {
+	const countryOptGroups = document.querySelectorAll('.all-countries'); // Select all optgroups with class 'all-countries'
+	countryOptGroups.forEach(optGroup => {
+		allCountries.forEach(country => {
 			const option = document.createElement('option');
-			option.value = `${months[month]} ${year}`;
-			option.textContent = `${months[month]} ${year}`;
-			select.appendChild(option);
-
-			if (year === currentYear + 5 && month === currentMonth - 1) break;
-		}
-	}
+			option.value = country;
+			option.textContent = country;
+			optGroup.appendChild(option); // Append options to the optgroup
+		});
+	});
 }
 
+populateCountries();
 populateMonths();
+
+
+

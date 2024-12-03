@@ -33,7 +33,7 @@
         </div>
 
         <div class="form-btn mt-3" data-aos="fade-up" >
-            <button type="submit" class="btn btn-primary px-5 p-3">
+            <button type="submit" class="btn btn-accent px-5 p-3">
                 Send Message 
                 <div class="d-inline-block">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

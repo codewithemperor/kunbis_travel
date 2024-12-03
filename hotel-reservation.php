@@ -146,7 +146,7 @@
                         <p class="fs-4">Total Payment</p>
                         <p class="s-color fs-3 fw-semibold">₦20,000.00</p>
                     </div>
-                    <input type="submit" value="Pay Now!" class="btn btn-primary mt-5 px-5 py-3 col-lg-5 col-7 col-md-6">
+                    <input type="submit" value="Pay Now!" class="btn btn-accent mt-5 px-5 py-3 col-lg-5 col-7 col-md-6">
                 </div>
                 
 

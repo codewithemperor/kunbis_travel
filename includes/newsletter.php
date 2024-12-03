@@ -5,7 +5,7 @@
                 <p class="text-center text-md-start">Get Updated the Latest Newsletter</p>
             </div>
 
-            <div class="col-md-6 mt-3 mt-md-0" data-aos="fade-left">
+            <div class="col-md-6 mt-3 mt-md-0 " data-aos="fade-left">
                 <form class="d-md-flex gap-3">
                     <input type="email" name="newsletterEmail" id="newsletterEmail" class="form-control col" placeholder="Enter your email Address" required data-aos="fade-up" >
                     <div class="form-btn col-auto text-center mt-3 mt-md-0" data-aos="fade-up" >

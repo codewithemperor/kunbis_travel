@@ -58,6 +58,10 @@
 
 
 
+    .category-area .swiper .swiper-slide {
+        width: 250px !important;
+        height: 100%;
+      }
    
 
 
@@ -106,10 +110,6 @@
 }
 
 @media (min-width: 768px) {
-    section.newsletter {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
     
 }
 

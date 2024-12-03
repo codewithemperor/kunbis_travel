@@ -1,122 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
-    
+<html>
     <head>
-        <?php 
+        <?php
             $pageTitle = "Kunbis - Tour & Vacation";
-            require './includes/header.php' 
+            include './includes/header.php';
         ?>
+        <!-- Swipper -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
-    
     <body>
         
         <!-- Start Navbar  -->
-        <?php require './includes/nav.php' ?>
+        <?php include './includes/nav.php'?>
         <!-- End Navbar -->
 
-        <!-- Banner -->
-        <div class="hero-wrap two bg-dark d-flex align-items-center" style="background-image: url('images/bg_4.jpg');">
+        <!-- Hero Starts -->
+        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');">
             <div class="overlay"></div>
-            <div class="container py-5">
-                <p class="h1 text-light display-4 fw-bold">Plan Your Perfect Vacation Today</p>
-                <p class="text-white mb-0">
-                    Explore amazing destinations worldwide with our hassle-free tour packages. 
-                    Book your trip now and enjoy personalized itineraries, affordable travel plans, and unforgettable experiences. 
-                </p>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-9 pt-5 text-center">
+                        <p class="breadcrumbs">
+                            <span class="me-2"><a href="index.php">Home <i class="fa fa-chevron-right"></i></a></span> 
+                            <span>Tour & Vacation <i class="fa fa-chevron-right"></i></span>
+                        </p>
+                        <h1 class="mb-0 bread">Tour & Vacation</h1>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- Banner ends -->
+        </section>
+        <!-- Hero Ends -->
 
-        <!-- Tour & Vacation Form -->
-        <section class="tour-vacation-service bg-white py-3 py-md-5 bg-primary"> 
-            <form action="" class="contact-form-area">
-                <div class="container my-3 px-4 px-lg-0">
+        <!-- Tour Listing -->
+        <section class="ftco-section">
+            <div class="text-center heading-section justify-content-center col-md-10 col-lg-7 mx-auto my-5" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="mb-1">Popular Tour</h2>
+                <!-- <span class="subheading">Enter your details and get a free counselling session with our experts so they can connect you to the right course, country, university - and even scholarships!</span> -->
+            </div>
 
-                    <!-- Traveler Details -->
-                    <div class="p-4 align-items-center rounded-3 border shadow-lg" id="travelerDetails">
-                        <div class="col p-1 pb-4 p-lg-5 py-lg-4">
-                            <h1 class="title1 display-5">Traveler Details</h1>
-                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 mt-3">
-
-                                <div class="col-lg-6">
-                                    <label for="tFirstName" class="form-label fw-bold fs-6">First Name*</label>
-                                    <input type="text" class="form-control py-3" name="tFirstName" placeholder="First Name" required>
+            <div class="px-3 px-md-5">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+                    <div class="col">
+                        <div class="tour-box th-ani gsap-cursor">
+                            <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
+                            <div class="tour-content">
+                                <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                <div class="tour-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                    </div>
+                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
-
-                                <div class="col-lg-6">
-                                    <label for="tLastName" class="form-label fw-bold fs-6">Last Name*</label>
-                                    <input type="text" class="form-control py-3" name="tLastName" placeholder="Last Name" required>
-                                </div>
-                                
-                                <div class="col">
-                                    <label for="deliveryEmail" class="form-label fw-bold fs-6">Email*</label>
-                                    <input type="email" class="form-control py-3" name="deliveryEmail" placeholder="example@mail.com" required>
-                                </div>
-
-                                <div class="col">
-                                    <label for="phoneNumber" class="form-label fw-bold fs-6">Phone Number*</label>
-                                    <input type="number" class="form-control py-3" name="phoneNumber" placeholder="country code + Phone Number" required>
-                                </div>                      
-
-                                <div class="col">
-                                    <label for="departureDate" class="form-label fw-bold fs-6">Departure Date*</label>
-                                    <input type="date" class="form-control py-3" name="departureDate" required>
-                                </div>
-
-                                <div class="col">
-                                    <label for="destination" class="form-label fw-bold fs-6">Destination*</label>
-                                    <select name="destination" class="form-select py-3" required>
-                                        <optgroup label="Popular Destinations">
-                                            <option value="Paris">Paris</option>
-                                            <option value="Maldives">Maldives</option>
-                                            <option value="Dubai">Dubai</option>
-                                            <option value="New York">New York</option>
-                                            <option value="Tokyo">Tokyo</option>
-                                        </optgroup>
-                                    </select>
-                                </div>
-
-                                <div class="col">
-                                    <label for="groupSize" class="form-label fw-bold fs-6">Group Size*</label>
-                                    <input type="number" class="form-control py-3" name="groupSize" placeholder="Number of travelers" required>
-                                </div>
-
-                                <div class="col">
-                                    <label for="packageType" class="form-label fw-bold fs-6">Tour Package Type*</label>
-                                    <select name="packageType" id="packageType" class="form-select py-3" required>
-                                        <option value="" disabled selected>Select package...</option>
-                                        <option value="Luxury">Luxury</option>
-                                        <option value="Budget">Budget</option>
-                                        <option value="Adventure">Adventure</option>
-                                        <option value="Family">Family</option>
-                                        <option value="Honeymoon">Honeymoon</option>
-                                    </select>
+                                <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                <div class="tour-action">
+                                    <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Traveler Details ends-->
-
-                    <!-- Payment Summary -->
-                    <div class="my-5 bg-black text-light p-4 py-5 p-md-5 d-flex flex-column justify-content-center align-items-center text-center order-summary">
-                        <p class="display-3 title">Order Summary:</p>
-                        <!-- Tour Package Price -->
-                        <div class="price d-flex align-items-center justify-content-between col-12 col-md-11 p-2 py-3" data-label="Tour Package">
-                            <p class="fs-5">Tour Package</p>
-                            <p class="s-color fs-4">₦150,000.00</p>
+                    <div class="col">
+                        <div class="tour-box th-ani gsap-cursor">
+                            <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
+                            <div class="tour-content">
+                                <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                <div class="tour-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                    </div>
+                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                </div>
+                                <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                <div class="tour-action">
+                                    <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Total Payment -->
-                        <div class="price total-price d-flex align-items-center justify-content-between col-12 col-md-11 p-2 py-3 mt-3">
-                            <p class="fs-4">Total Payment</p>
-                            <p class="s-color fs-3 fw-semibold">₦150,000.00</p>
-                        </div>
-                        <input type="submit" value="Pay Now!" class="btn btn-primary mt-5 px-5 py-3 col-lg-5 col-7 col-md-6">
                     </div>
-
+                    <div class="col">
+                        <div class="tour-box th-ani gsap-cursor">
+                            <div class="tour-box_img global-img"><img src="images/tour/tour_box_3.jpg" alt="image" /></div>
+                            <div class="tour-content">
+                                <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                <div class="tour-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                    </div>
+                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                </div>
+                                <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                <div class="tour-action">
+                                    <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tour-box th-ani gsap-cursor">
+                            <div class="tour-box_img global-img"><img src="images/tour/tour_box_4.jpg" alt="image" /></div>
+                            <div class="tour-content">
+                                <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                <div class="tour-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                    </div>
+                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                </div>
+                                <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                <div class="tour-action">
+                                    <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tour-box th-ani gsap-cursor">
+                            <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
+                            <div class="tour-content">
+                                <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                <div class="tour-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                    </div>
+                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                </div>
+                                <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                <div class="tour-action">
+                                    <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tour-box th-ani gsap-cursor">
+                            <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
+                            <div class="tour-content">
+                                <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                <div class="tour-rating">
+                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                        <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                    </div>
+                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                </div>
+                                <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                <div class="tour-action">
+                                    <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </form>
+            </div>
+
+            <nav aria-label="Page navigation example" class="mt-5">
+              <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                  <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+
+
         </section>
-        <!-- Tour & Vacation Form end-->
+        <!-- Tour Listing end-->
+
+      
+
+   
+
+        <!-- Start Our Counselling -->  
+        <div class="bg-light p-3 p-md-5">
+            <?php include './includes/free-counselling-form.php'?>
+            <div class="pb-3 pb-md-5"></div>
+        </div>      
+        <!-- End Free Counselling -->
 
         <!-- Start Newsletter Section -->
         <?php include './includes/newsletter.php'?>
@@ -124,8 +185,7 @@
 
         <!-- Start Footer Section -->
         <?php include './includes/footer.php'?>
-        <!-- End Footer Section -->     
+        <!-- End Footer Section -->         
 
     </body>
-    
 </html>

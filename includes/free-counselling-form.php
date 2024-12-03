@@ -76,7 +76,7 @@
                     </select>
                 </div>
                 <div class="col" data-aos="fade-down-left">
-                    <input type="submit" value="Make Enquiry Now!" class="btn btn-primary px-5 py-3 mt-2">
+                    <input type="submit" value="Make Enquiry Now!" class="btn btn-accent px-5 py-3 mt-2">
                 </div>
         </div>
     </div>

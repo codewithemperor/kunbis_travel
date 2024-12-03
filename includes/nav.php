@@ -26,10 +26,10 @@
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                     aria-expanded="false">E-Visa/ETa</a>
                 <ul class="dropdown-menu p-lg-3">
-                    <li><a class="dropdown-item p-3" href="#">Expedited Visa</a></li>
-                    <li><a class="dropdown-item p-3" href="#">E-Visa services</a></li>
-                    <li><a class="dropdown-item p-3" href="#">Tour & Vacation</a></li>
-                    <li><a class="dropdown-item p-3" href="#">Passport services</a></li>
+                    <!-- <li><a class="dropdown-item p-3" href="#">Expedited Visa</a></li> -->
+                    <li><a class="dropdown-item p-3" href="visa.php">Visa services</a></li>
+                    <li><a class="dropdown-item p-3" href="tour.php">Tour & Vacation</a></li>
+                    <!-- <li><a class="dropdown-item p-3" href="#">Passport services</a></li> -->
                 </ul>
             </li>
             
@@ -40,14 +40,14 @@
                     <li><a class="dropdown-item p-3" href="flight-itinerary.php">Flight Itinerary</a></li>
                     <li><a class="dropdown-item p-3" href="travel-insurance.php">Travel Insurance</a></li>
                     <li><a class="dropdown-item p-3" href="hotel-reservation.php">Hotel Reservation</a></li>
-                    <li><a class="dropdown-item p-3" href="#">Supporting Documents</a></li>
+                    <!-- <li><a class="dropdown-item p-3" href="#">Supporting Documents</a></li> -->
                 </ul>
             </li>
         
         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
-        <p class="mb-0"><a href="#" class="btn btn-primary rounded">Visa Application</a></p>
+        <p class="mb-0"><a href="visa.php" class="btn btn-accent rounded">Visa Application</a></p>
     </div>
     </div>
 </nav>

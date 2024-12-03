@@ -24,7 +24,7 @@
                     <p class="lead" data-aos="fade-right" data-aos-duration="500" >Europe is an increasingly popular destination for international students, offering a diverse range of educational experiences, rich cultures, and a welcoming environment. With world-renowned universities, historical landmarks, and a dynamic modern economy, Europe is an ideal place to pursue higher education.</p>
                 </div>
                 <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg global-img" data-aos="fade-left" data-aos-duration="500" >
-                    <img class="rounded-lg-3" src="images/destination/canada.jpg" alt="" width="720">
+                    <img class="rounded-lg-3" src="images/destination/ireland.jpg" alt="" width="720">
                 </div>
                 </div>
             </div>

@@ -4,6 +4,15 @@
 <head>
     <?php require './includes/header.php' ?>
 </head>
+<style>
+
+@media (min-width: 768px) {
+    .newsletter .col-md-6 {
+        display: flex;
+        gap: 1em
+    }
+}
+</style>
 
 <body>
 
@@ -25,7 +34,7 @@
                                     <div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
                                         <h2>Tailored Tours & Vacations</h2>
                                         <p class="mb-5">Plan the vacation of your dreams. From exotic getaways to cultural tours, we craft unforgettable experiences for every traveler.</p>
-                                        <p><a href="#" class="btn btn-primary px-5 py-3">Plan Your Trip <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+                                        <p><a href="tour.php" class="btn btn-accent px-5 py-3">Plan Your Trip <span class="ion ion-ios-arrow-round-forward"></span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +52,7 @@
                                     <div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
                                         <h2>Study Abroad Made Simple</h2>
                                         <p class="mb-5">Unlock your academic dreams with our tailored study abroad services. From university applications to visa guidance, we simplify the process for you.</p>
-                                        <p><a href="#" class="btn btn-primary px-5 py-3">Learn More <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+                                        <p><a href="index.php#studyAbroad" class="btn btn-accent px-5 py-3">Learn More <span class="ion ion-ios-arrow-round-forward"></span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +70,7 @@
                                     <div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
                                         <h2>Visa Services You Can Trust</h2>
                                         <p class="mb-5">We specialize in hassle-free visa applications. Whether for studies, work, or tourism, our experts ensure your documents are complete and submission-ready.</p>
-                                        <p><a href="#" class="btn btn-primary px-5 py-3">Apply Now <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+                                        <p><a href="visa.php" class="btn btn-accent px-5 py-3">Apply Now <span class="ion ion-ios-arrow-round-forward"></span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +88,7 @@
                                     <div class="text text-center" data-aos="fade-up" data-aos-duration="1000">
                                         <h2>Flight Itinerary & Reservations</h2>
                                         <p class="mb-5">Secure your travel plans with ease. From flight reservations to itineraries, we ensure your journeys are smooth and stress-free.</p>
-                                        <p><a href="#" class="btn btn-primary px-5 py-3">Book Now <span class="ion ion-ios-arrow-round-forward"></span></a></p>
+                                        <p><a href="flight-itinerary.php" class="btn btn-accent px-5 py-3">Book Now <span class="ion ion-ios-arrow-round-forward"></span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -94,94 +103,134 @@
 
     <!-- Popular Destination -->
     <section class="ftco-section">
-        <div class="container">
+        <div class="px-3 px-md-5">
             <div class="text-center heading-section justify-content-center col-md-8 col-lg-7 mx-auto mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="mb-1">Popular Tour Destination</h2>
                 <span class="subheading">Explore top destinations that attract students worldwide for quality education and global opportunities.</span>
             </div>
 
-            <div class="destination-area">
-            <div class="hero-slider">
-                <div class="p-2 row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-                    <div class="col">
-                        <div class="destination-item th-ani">
-                            <div class="destination-item_img global-img"><img src="images/destination/destination_3_1.jpg"
-                                    alt="image" /></div>
-                            <div class="destination-content">
-                                <h3 class="box-title"><a href="destination-details.html">Dubai, UAE</a></h3>
-                                <p class="destination-text">25 Listing</p>
-                                <a href="contact.html" class="btn btn-primary p-2 px-5">Book Now</a>
+            <div class="slider-area tour-slider">
+                <div class="swiper th-slider  slider-drag-wrap"
+                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
+                                <div class="tour-content">
+                                    <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                    <div class="tour-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                            <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                        </div>
+                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                    <div class="tour-action">
+                                        <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-            
-                    <div class="col">
-                        <div class="destination-item th-ani">
-                            <div class="destination-item_img global-img">
-                                <img src="images/destination/destination_3_2.jpg" alt="image" />
-                            </div>
-                            <div class="destination-content">
-                                <h3 class="box-title"><a href="destination-details.html">Japan</a></h3>
-                                <p class="destination-text">25 Listing</p>
-                                <a href="contact.html" class="btn btn-primary p-2 px-5">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="destination-item th-ani">
-                            <div class="destination-item_img global-img"><img src="images/destination/destination_3_3.jpg"
-                                    alt="image" /></div>
-                            <div class="destination-content">
-                                <h3 class="box-title"><a href="destination-details.html">Switzerland</a></h3>
-                                <p class="destination-text">25 Listing</p>
-                                <a href="contact.html" class="btn btn-primary p-2 px-5">Book Now</a>
+                        <div class="swiper-slide">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
+                                <div class="tour-content">
+                                    <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                    <div class="tour-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                            <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                        </div>
+                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                    <div class="tour-action">
+                                        <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="destination-item th-ani">
-                            <div class="destination-item_img global-img"><img src="images/destination/destination_3_4.jpg"
-                                    alt="image" /></div>
-                            <div class="destination-content">
-                                <h3 class="box-title"><a href="destination-details.html">Brazil</a></h3>
-                                <p class="destination-text">25 Listing</p>
-                                <a href="contact.html" class="btn btn-primary p-2 px-5">Book Now</a>
+                        <div class="swiper-slide">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img"><img src="images/tour/tour_box_3.jpg" alt="image" /></div>
+                                <div class="tour-content">
+                                    <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                    <div class="tour-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                            <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                        </div>
+                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                    <div class="tour-action">
+                                        <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="destination-item th-ani">
-                            <div class="destination-item_img global-img"><img src="images/destination/destination_3_1.jpg"
-                                    alt="image" /></div>
-                            <div class="destination-content">
-                                <h3 class="box-title"><a href="destination-details.html">Dubai, UAE</a></h3>
-                                <p class="destination-text">25 Listing</p>
-                                <a href="contact.html" class="btn btn-primary p-2 px-5">Book Now</a>
+                        <div class="swiper-slide">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img"><img src="images/tour/tour_box_4.jpg" alt="image" /></div>
+                                <div class="tour-content">
+                                    <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                    <div class="tour-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                            <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                        </div>
+                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                    <div class="tour-action">
+                                        <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="destination-item th-ani">
-                            <div class="destination-item_img global-img"><img src="images/destination/destination_3_2.jpg"
-                                    alt="image" /></div>
-                            <div class="destination-content">
-                                <h3 class="box-title"><a href="destination-details.html">Japan</a></h3>
-                                <p class="destination-text">25 Listing</p>
-                                <a href="contact.html" class="btn btn-primary p-2 px-5">Book Now</a>
+                        <div class="swiper-slide">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
+                                <div class="tour-content">
+                                    <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                    <div class="tour-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                            <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                        </div>
+                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                    <div class="tour-action">
+                                        <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
+                                <div class="tour-content">
+                                    <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                    <div class="tour-rating">
+                                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
+                                            <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
+                                        </div>
+                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    </div>
+                                    <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
+                                    <div class="tour-action">
+                                        <span><i class="fa-light fa-clock"></i>7 Days</span> <a href="tour-details.php" class="th-btn">Book Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
+            <div class="slider-pagination swiper-pagination mt-4 mx-auto"></div>
 
     </section>
     <!-- End Popular Destination -->
 
     <!-- Six Destination -->
-    <section class="six-destination background2 p-3 p-md-5 bg-light">
+    <section class="six-destination background2 p-3 p-md-5 bg-light" id="studyAbroad">
         <div class="text-center heading-section justify-content-center col-md-10 col-lg-7 mx-auto my-5" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="mb-1">Six Popular Study Destination</h2>
             <span class="subheading">Explore top destinations that attract students worldwide for quality education and global opportunities.</span>
@@ -201,7 +250,7 @@
                         <p class="card-text">Canada is renowned for its high-quality education and welcoming
                             multicultural society. With a reputation for safety, innovation, and stunning scenery, it's
                             a top choice for those seeking a well-rounded study abroad experience.</p>
-                        <a href="study-in-canada.html" class="btn btn-primary w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-canada.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -220,7 +269,7 @@
                             universities and colleges. Experience a tradition of academic excellence and research
                             innovation, with access to top-quality education that shapes future leaders across diverse
                             fields.</p>
-                        <a href="study-in-uk.html" class="btn btn-primary w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-uk.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -239,7 +288,7 @@
                             the financial, technology, aerospace, healthcare, and entertainment hubs of the world, the
                             United States is a land of educational and career opportunities for international students.
                         </p>
-                        <a href="study-in-usa.html" class="btn btn-primary w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-usa.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -257,7 +306,7 @@
                         <p class="card-text">Uncover a world of opportunities in the land down under! With over 1,100
                             institutions and 22,000 courses to choose from, Australia offers a world-class education and
                             an outstanding quality of life.</p>
-                        <a href="study-in-australia.html" class="btn btn-primary w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-australia.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -276,7 +325,7 @@
                             choice among international students. It offers a world-class education system, abundant
                             research opportunities, breathtaking natural beauty, and unparalleled outdoor experiences.
                         </p>
-                        <a href="study-in-newZealand.html" class="btn btn-primary w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-newZealand.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -295,7 +344,7 @@
                             universities, offering students a wide range of academic opportunities in diverse cultural
                             settings. Whether you’re interested in history, science, business, or the arts, studying in
                             Europe provides a rich educational experience alongside vibrant cultures and languages.</p>
-                        <a href="study-in-europe.html" class="btn btn-primary w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-europe.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
 
                     </div>
                 </div>
@@ -306,52 +355,7 @@
     <!-- Six Destination ends -->
 
     <!-- Start About us -->
-    <section class="company section" id="about">
-        <div class="container">
-            <div class="row">
-
-                <!-- Section Title -->
-                <div class="col-12 text-center heading-section" data-aos="fade-up">
-                    <span class="subheading">About Kunbis Unique Ventures</span>
-                    <h2 class="mb-5">Our History</h2>
-                </div>
-
-                <!-- Content Section -->
-                <div class="col-lg-6 px-3">
-                    <div class="content" data-aos="fade-right">
-
-                         <p class="mb-3" data-aos="fade-up">
-                            With over 15 years of experience, Kunbis Unique Ventures has been delivering outstanding
-                            services in Travel and Tours, Estate Management, and Automobile. Our dedication goes beyond just meeting industry standards; we aim to elevate your business and lifestyle through tailored solutions.
-                        </p>
-
-                        <ul class="list-unstyled ms-2">
-                            <li data-aos="fade-up" >Registered with the Nigerian government and
-                                committed to quality service.</li>
-                            <li data-aos="fade-up">A long-standing reputation built over 15+ years
-                                in business.</li>
-                            <li data-aos="fade-up">Professional expertise across our subdivisions:
-                                Travel & Tours, Estate Management, and Automobile.</li>
-                            <li data-aos="fade-up"><span>Flight Booking: </span>Travel in style
-                                when you book all your local and international flights with us. Get the cheapest fares
-                                available for all your travel requests</li>
-                            <li data-aos="fade-up"><span>Hotel Reservation: </span>Let's help you
-                                get settled anywhere in the world with our amazing accommodation services. Discover rest
-                                and ease like never before when you book your hotels and apartments with us.</li>
-                            <li data-aos="fade-up"><span>Vacation: </span>With a perfect mix of
-                                personalization and excellence, experience the world in a different way when you plan
-                                your tours and vacations with us</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Image Section -->
-                <div class="col-lg-6" data-aos="fade-right">
-                    <?php include './includes/flyers.php' ?>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include './includes/about-us.php'?>
     <!-- End About us -->
 
     <!-- Start FAQ -->
@@ -423,6 +427,47 @@
                 element.classList.remove('fixed-top');
             }
         };
+        $(".th-slider").each(function () {
+          var $slider = $(this),
+              $prevBtn = $slider.find(".slider-prev"),
+              $nextBtn = $slider.find(".slider-next"),
+              $paginationEl = $(".slider-pagination");
+
+          var sliderSettings = {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            loop: true,
+            speed: 1000,
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false
+            },
+            navigation: {
+              nextEl: $nextBtn.get(0),
+              prevEl: $prevBtn.get(0)
+            },
+            pagination: {
+              el: $paginationEl.get(0),
+              type: 'fraction', // Can also be 'fraction' or 'progressbar' depending on preference
+              clickable: true, // Ensures the bullets are clickable
+              renderBullet: function (index, className) {
+                return `<span class="${className}">${index + 1}</span>`;
+              }
+            },
+            breakpoints: {
+              0: { slidesPerView: 1 },
+              576: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              992: { slidesPerView: 2 },
+              1200: { slidesPerView: 3 },
+              1300: { slidesPerView: 4 }
+            }
+          };
+
+          new Swiper($slider[0], sliderSettings);
+        });
+
+
     </script>
 </body>
 
