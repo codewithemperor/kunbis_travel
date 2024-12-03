@@ -4,16 +4,6 @@
 <head>
     <?php require './includes/header.php' ?>
 </head>
-<style>
-
-@media (min-width: 768px) {
-    .newsletter .col-md-6 {
-        display: flex;
-        gap: 1em
-    }
-}
-</style>
-
 <body>
 
 
@@ -117,12 +107,12 @@
                             <div class="tour-box th-ani gsap-cursor">
                                 <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="tour-details.php">Greece Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                         </div>
-                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                        <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
@@ -135,12 +125,12 @@
                             <div class="tour-box th-ani gsap-cursor">
                                 <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                    <h3 class="box-title"><a href="tour-details.php">Italy Tour package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                         </div>
-                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                        <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
@@ -153,12 +143,12 @@
                             <div class="tour-box th-ani gsap-cursor">
                                 <div class="tour-box_img global-img"><img src="images/tour/tour_box_3.jpg" alt="image" /></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="tour-details.php">Dubai Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                         </div>
-                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                        <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
@@ -171,12 +161,12 @@
                             <div class="tour-box th-ani gsap-cursor">
                                 <div class="tour-box_img global-img"><img src="images/tour/tour_box_4.jpg" alt="image" /></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                    <h3 class="box-title"><a href="tour-details.php">Switzerland</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                         </div>
-                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                        <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
@@ -189,12 +179,12 @@
                             <div class="tour-box th-ani gsap-cursor">
                                 <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                    <h3 class="box-title"><a href="tour-details.php">Greece Tour Package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                         </div>
-                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                        <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
@@ -207,12 +197,12 @@
                             <div class="tour-box th-ani gsap-cursor">
                                 <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
                                 <div class="tour-content">
-                                    <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                    <h3 class="box-title"><a href="tour-details.php">Italy Tour package</a></h3>
                                     <div class="tour-rating">
                                         <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                             <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                         </div>
-                                        <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                        <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                     </div>
                                     <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                     <div class="tour-action">
@@ -250,7 +240,7 @@
                         <p class="card-text">Canada is renowned for its high-quality education and welcoming
                             multicultural society. With a reputation for safety, innovation, and stunning scenery, it's
                             a top choice for those seeking a well-rounded study abroad experience.</p>
-                        <a href="study-in-canada.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-canada.php" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -269,7 +259,7 @@
                             universities and colleges. Experience a tradition of academic excellence and research
                             innovation, with access to top-quality education that shapes future leaders across diverse
                             fields.</p>
-                        <a href="study-in-uk.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-uk.php" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -288,7 +278,7 @@
                             the financial, technology, aerospace, healthcare, and entertainment hubs of the world, the
                             United States is a land of educational and career opportunities for international students.
                         </p>
-                        <a href="study-in-usa.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-usa.php" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -306,7 +296,7 @@
                         <p class="card-text">Uncover a world of opportunities in the land down under! With over 1,100
                             institutions and 22,000 courses to choose from, Australia offers a world-class education and
                             an outstanding quality of life.</p>
-                        <a href="study-in-australia.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-australia.php" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -325,7 +315,7 @@
                             choice among international students. It offers a world-class education system, abundant
                             research opportunities, breathtaking natural beauty, and unparalleled outdoor experiences.
                         </p>
-                        <a href="study-in-newZealand.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-newZealand.php" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
                     </div>
                 </div>
             </div>
@@ -344,7 +334,7 @@
                             universities, offering students a wide range of academic opportunities in diverse cultural
                             settings. Whether you’re interested in history, science, business, or the arts, studying in
                             Europe provides a rich educational experience alongside vibrant cultures and languages.</p>
-                        <a href="study-in-europe.html" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
+                        <a href="study-in-europe.php" class="btn btn-accent w-100 mt-lg-3">Discover more</a>
 
                     </div>
                 </div>

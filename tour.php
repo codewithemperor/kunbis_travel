@@ -43,12 +43,12 @@
                         <div class="tour-box th-ani gsap-cursor">
                             <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
                             <div class="tour-content">
-                                <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                <h3 class="box-title"><a href="tour-details.php">Greece Tour Package</a></h3>
                                 <div class="tour-rating">
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                     </div>
-                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
                                 <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                 <div class="tour-action">
@@ -61,12 +61,12 @@
                         <div class="tour-box th-ani gsap-cursor">
                             <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
                             <div class="tour-content">
-                                <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                <h3 class="box-title"><a href="tour-details.php">Italy Tour package</a></h3>
                                 <div class="tour-rating">
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                     </div>
-                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
                                 <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                 <div class="tour-action">
@@ -79,12 +79,12 @@
                         <div class="tour-box th-ani gsap-cursor">
                             <div class="tour-box_img global-img"><img src="images/tour/tour_box_3.jpg" alt="image" /></div>
                             <div class="tour-content">
-                                <h3 class="box-title"><a href="tour-details.html">Dubai Tour Package</a></h3>
+                                <h3 class="box-title"><a href="tour-details.php">Dubai Tour Package</a></h3>
                                 <div class="tour-rating">
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                     </div>
-                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
                                 <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                 <div class="tour-action">
@@ -97,12 +97,12 @@
                         <div class="tour-box th-ani gsap-cursor">
                             <div class="tour-box_img global-img"><img src="images/tour/tour_box_4.jpg" alt="image" /></div>
                             <div class="tour-content">
-                                <h3 class="box-title"><a href="tour-details.html">Switzerland</a></h3>
+                                <h3 class="box-title"><a href="tour-details.php">Switzerland</a></h3>
                                 <div class="tour-rating">
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                     </div>
-                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
                                 <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                 <div class="tour-action">
@@ -115,12 +115,12 @@
                         <div class="tour-box th-ani gsap-cursor">
                             <div class="tour-box_img global-img"><img src="images/tour/tour_box_1.jpg" alt="image" /></div>
                             <div class="tour-content">
-                                <h3 class="box-title"><a href="tour-details.html">Greece Tour Package</a></h3>
+                                <h3 class="box-title"><a href="tour-details.php">Greece Tour Package</a></h3>
                                 <div class="tour-rating">
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                     </div>
-                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
                                 <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                 <div class="tour-action">
@@ -133,12 +133,12 @@
                         <div class="tour-box th-ani gsap-cursor">
                             <div class="tour-box_img global-img"><img src="images/tour/tour_box_2.jpg" alt="image" /></div>
                             <div class="tour-content">
-                                <h3 class="box-title"><a href="tour-details.html">Italy Tour package</a></h3>
+                                <h3 class="box-title"><a href="tour-details.php">Italy Tour package</a></h3>
                                 <div class="tour-rating">
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span style="width: 100%;">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">4.8</span>(4.8 Rating)</span>
                                     </div>
-                                    <a href="tour-details.html" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
+                                    <a href="tour-details.php" class="woocommerce-review-link">(<span class="count">4.8</span> Rating)</a>
                                 </div>
                                 <h4 class="tour-box_price"><span class="currency">$980.00</span>/Person</h4>
                                 <div class="tour-action">
