@@ -2,9 +2,10 @@
 
 	"use strict";
 
-	AOS.init({
-		duration: 600
-	});
+	// AOS.init({
+	// 	ease: 'slide',
+	// 	once: true
+	// });
 
 	
 

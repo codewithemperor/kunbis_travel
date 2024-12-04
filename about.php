@@ -102,7 +102,7 @@
                         //     disableOnInteraction: false,  // Keep autoplay active after user interaction
                         // },
                         breakpoints: {
-                            300: { slidesPerView: 1, spaceBetween: 20 },
+                            300: { slidesPerView: 1, spaceBetween: 30 },
                             600: { slidesPerView: 2, spaceBetween: 30 },
                             768: { slidesPerView: 3, spaceBetween: 30 },
                             1024: { slidesPerView: 4, spaceBetween: 40 },

@@ -38,8 +38,8 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/tiny-slider.css">
   <link rel="stylesheet" href="css/glightbox.min.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/aos.css">
+  <!-- <link rel="stylesheet" href="css/aos.css"> -->
+  
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/fontawesome.min.css" />

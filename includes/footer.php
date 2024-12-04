@@ -22,11 +22,11 @@
                     <div class="footer-nav" data-aos="fade-up" data-aos-duration="500">
                         <h3 class="footer_title">Quick Links</h3>
                         <ul class="footer-nav_menu">
-                            <li><a href="https://kunbisunique.com/">Home</a></li>
-                            <li><a href="about.php">About us</a></li>
-                            <li><a href="#">Travels & Tour</a></li>
-                            <li><a href="#">Buy Car</a></li>
-                            <li><a href="#">Study in Canada</a></li>
+                        <li><a href="https://kunbisunique.com/">Home</a></li>
+                            <li><a href="https://kunbisunique.com/about.php">About us</a></li>
+                            <li><a href="https://realestate.kunbisunique.com/lands.php">Buy Land</a></li>
+                            <li><a href="https://realestate.kunbisunique.com/properties.php">Buy Properties</a></li>
+                            <li><a href="tour.php">Tour & Vacation</a></li>
                         </ul>
                     </div>
                 </div>
@@ -130,5 +130,5 @@
 
 <script src="js/tiny-slider.js"></script>
 <script src="js/glightbox.min.js"></script>
-<script src="js/aos.js"></script>
+<!-- <script src="js/aos.js"></script> -->
 <script src="js/main.js"></script>

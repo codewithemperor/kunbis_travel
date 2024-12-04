@@ -354,20 +354,16 @@
     </div>
     <!-- Ends FAQ -->
 
+    <!-- Start Our Staff -->       
+    <?php include './includes/team.php'?>
+    <!-- End Our Staff -->
+
     <!-- Start Student Counselling -->
-    <section class="p-3 py-5 p-md-5 ftco-section">
+    <section class="p-3 py-5 p-md-5 ftco-section bg-light">
         <?php include './includes/free-counselling-form.php'; ?>
         <div class="mb-5"></div>
     </section>
     <!-- End Student Counselling -->
-
-    
-
-    <!-- Start Our Staff -->       
-     <div class="bg-light">
-         <?php include './includes/team.php'?>
-     </div> 
-    <!-- End Our Staff -->
 
     <!-- Start Newsletter Section -->
     <?php include './includes/newsletter.php'?>
