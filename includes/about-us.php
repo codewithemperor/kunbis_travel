@@ -42,12 +42,12 @@
                 <div class="img d-flex position-relative">
                     <div class="imgone" data-aos="fade-down" data-aos-delay="600">
                         <div class="simpleParallax" style="overflow: hidden;">
-                            <img class="thumparallax-down" src="images/about-two-img-3.jpg" alt="">
+                            <img class="thumparallax-down" src="images/about/about-img (<?php echo rand(1, 10); ?>).jpg" alt="">
                         </div>
                     </div>
                     <div class="imgtwo" data-aos="fade-up" data-aos-delay="800">
                         <div class="simpleParallax" style="overflow: hidden;">
-                            <img class="thumparallax" src="images/about-two-img-1.jpg" alt="">
+                            <img class="thumparallax-down" src="images/about/about-img (<?php echo rand(1, 10); ?>).jpg" alt="">
                         </div>
                     </div>
                 </div>

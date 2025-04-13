@@ -86,7 +86,7 @@
         <div class="img d-flex position-relative">
             <div class="imgone" data-aos="fade-down"  style="width: 100%;">
                 <div class="simpleParallax global-img" style="overflow: hidden;">
-                    <img class="thumparallax-down" src="images/about-two-img-3.jpg" alt="">
+                    <img class="thumparallax-down" src="images/about/about-img (<?php echo rand(1, 10); ?>).jpg" alt="">
                 </div>
             </div>
         </div>
